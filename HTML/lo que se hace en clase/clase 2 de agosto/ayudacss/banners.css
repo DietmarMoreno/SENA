@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.portada{
+    background-color: aqua;
+}
+h1{
+    color: white;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.que{
+    background-color: white;
+}
+table{
+    width: 500px;
+    height: 300px;
+}
+.rogado{
+    background-color: white;
+    width: 500px;
+    height: 100px;
+}
+.recocha{
+    width: 300px;
+    height: 1000px;
+    position:  absolute;top: 200px; left: 1540px ;
+}

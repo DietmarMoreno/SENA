@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #456789;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 15px 0;
+    text-align: justify;
+    
+}
+.cuerpo{
+    padding: 10px 2px;
+}
+.content{
+    padding: 30px 50px;
+    text-align: center;
+    background-color: white;
+}
+.container{
+    padding: 0 29%;
+}
+.content h1{
+    color: #456789;
+    font-size: 48px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.content h2{
+    color: #456789;
+    text-transform: uppercase;
+    font-size: 26px;
+    
+}
+.titulo{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 27px;
+}
+.titulo h2{
+    text-align: justify;
+    font-family: 'Fira Sans 200', sans-serif;
+}
+.tito{
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    padding: 10px 0 10px;
+    font-family: 'Fira Sans 900', sans-serif;
+}
+/* ------------------ */
+.raya{
+    opacity: 40%;
+}
+/* ------------------ */
+p{
+    padding: 10px 0;
+    color: white;
+}
+/* ------------------ */
+.boton{
+    padding-top: 17px;
+}
+button{
+    background-color: #456789;
+    border-color: #5e6770;
+    color: white;
+    padding: 9px 18px;
+    border-radius: 9px;
+    border: 0.01px solid ;
+    font-size: 17px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #456789;
+}
+
+a{
+    color: white;
+    text-decoration-line: none;
+}
+/* ------------------ */
+.fecha{
+    color: white;
+}

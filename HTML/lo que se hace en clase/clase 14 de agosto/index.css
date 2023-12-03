@@ -1,0 +1,239 @@
+body {
+    font-family: sans-serif;
+    padding: 22px;
+    background-image: url(https://images.unsplash.com/photo-1573883844855-f364441ac463?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    color: black;
+    
+  }
+  
+  .menu {
+    margin: auto;
+    width: 100%;
+    max-width: 470px;
+    padding: 10px;
+    background-color: burlywood;
+  }
+  
+  hr {
+    height: 3px;
+    background-color: brown;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  h1,
+  h2 {
+    font-family: "Impact", serif;
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  .item p {
+    display: inline-block;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 19px;
+  }
+  
+  .name {
+    width: 69%;
+  }
+  
+  .price {
+    width: 29%;
+    text-align: right;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    text-align: center;
+  }
+  
+  footer p,
+  foot a {
+    font-size: 14px;
+  }
+  
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: rgb(42, 165, 54);
+  }
+  
+  .menu-icon {
+    margin-top: -15px;
+    height: 50px;
+  }
+  
+  .coffee-icon {
+    height: 45px;
+  }
+.carrusel{
+  display: flex;
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+}
+
+.carruleslies{
+  flex: 0 0 100%;
+  animation: slide 50s infinite;
+  }
+  
+  .carruleslies img{
+  width: 90%;
+  height: 50%;
+  border-radius: 100%;
+  object-fit: cover;
+  scroll-snap-align: center;
+  }
+  
+  @keyframes slide{
+  0.01%, 10.00%{
+    transform: translateX(0);
+  }
+  10.00%, 20.00%{
+    transform: translateX(-100%);
+  }
+  20.00%, 30.00%{
+    transform: translateX(-200%);
+  }
+  30.00%, 40.00%{
+    transform: translateX(-300%);
+  }
+  40.00%, 50.00%{
+    transform: translateX(-400%);
+  }
+  50.00%, 60.00%{
+    transform: translateX(-500%);
+  }
+  60.00%, 70.00%{
+    transform: translateX(-600%);
+  }
+  70.00%, 80.00%{
+    transform: translateX(-700%);
+  }
+  80.00%, 90.00%{
+    transform: translateX(-800%);
+  }
+  90.00%, 99.99%{
+    transform: translateX(-900%);
+  }
+  }
+  /* ----------------- */
+.carri{
+  width: 50px;
+  height: 40px;
+  padding: -10%;
+}
+.tarjeta-nav{
+  display: none;
+}
+.vac{
+  display: none;
+}
+button{
+  cursor: pointer;
+}
+nav button:hover> .carrito{
+  width: 400px;
+  height: 400px;
+  left: 0%;
+  position: absolute;
+  background-color: burlywood;
+}
+nav button:hover .tarjeta-nav{
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px 0 10px;
+  border-bottom: solid thin black;
+}
+nav button:hover.carrito>.vac{
+  display: block;
+  width: 90%;
+  padding: 1rem;
+  margin: 1px auto;
+  background-color: transparent;
+  border: solid thin black;
+  color: blue;
+  cursor: pointer;
+}
+nav button:hover .carrito>.vac:hover{
+  background-color: black;
+  color: burlywood;
+  transition: all .45;
+}
+.tarjeta-nav li{
+  list-style: none;
+  padding: irem;
+  font-weight: bold;
+}
+/* ---------------------------- */
+.header{
+  margin: auto;
+  width: 500px;
+  padding: 30PX;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul,ol{
+  list-style: none;
+}
+.nav li a{
+  background-color: burlywood;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+.nav li a:hover{
+  background-color: red;
+}
+.nav >li{
+  float: left;
+}
+.nav li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+.nav li:hover >ul{
+  display: block;
+}
+.arriba{
+  background-color: burlywood;
+}

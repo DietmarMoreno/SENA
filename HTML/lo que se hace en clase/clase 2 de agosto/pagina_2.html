@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACS</title>
+    <link rel="stylesheet" href="ayudacss/pagina_2.css">
+</head>
+<body background="imagenes/menu de inicio.jpg">
+    <div class="portada">
+        <a href="nuevoproyecti.html"><img src="imagenes/3145866.png" alt="error: 404" width="100px" ></a><a href="pagina_1.html"><button>AOS</button></a><a href="pagina_3.html"><button>MVC</button></a><a href="banners.html"><button>banners</button></a>
+    </div>
+    <center><h1>Arquitectura Cliente Servidor</h1></center>
+    <hr>
+    <center><h2>¿Que es?</h2></center>
+    <center><table border="1" class="tabla">
+        <tr>
+            <td>
+                es un tipo de desarrollo de software, en el que las diferentes labores se racionan entre los recursos, como son los servidores y los demandantes que son los clientes. 
+            </td>
+        </tr>
+    </table></center>
+    <br>
+    <center><h2>de que se compone?</h2></center>  
+    <center><table border="1" class="tabla">
+        <tr>
+            <td>
+                En el modelo cliente-servidor, un servidor sirve a varios clientes y, por ende, procesa múltiples peticiones de diferentes clientes. Para ello, presta su servicio de forma permanente y pasiva. Por su parte, el cliente solicita activamente los servicios del servidor e inicia las tareas del servidor. 
+            </td>
+        </tr>
+    </table></center>  
+    <br>
+    <center><h2>ventajas</h2></center>
+    <center><table border="1" class="tabla">
+        <tr>
+            <td>
+                1. Centralización: El servidor fungirá como única fuente de la verdad, lo que impide que los clientes conserven información desactualizada.
+                Seguridad: El servidor por lo general está protegido por firewall o subredes que impiden que los atacantes pueden acceder a la base de datos o los recursos sin pasar por el servidor.
+                <br>
+                2. Fácil de instalar (cliente): El cliente es por lo general una aplicación simple que no tiene dependencias, por lo que es muy fácil de instalar.
+                <br>
+                3. Separación de responsabilidades: La arquitectura cliente-servidor permite implementar la lógica de negocio de forma separada del cliente.
+                <br>
+                4. Portabilidad: Una de las ventajas de tener dos aplicaciones es que podemos desarrollar cada parte para correr en diferentes plataformas, por ejemplo, el servidor solo en Linux, mientras que el cliente podría ser multiplataforma. 
+            </td>
+        </tr>
+    </table></center>  
+    <br>
+    <center><h2>desventajas</h2></center>
+    <center><table border="1" class="tabla">
+        <tr>
+            <td>
+                1. La congestión del tráfico ha sido siempre un problema en el paradigma de C/S. Cuando una gran cantidad de clientes envía peticiones simultáneas al mismo servidor, este debe gestionarlas y por ello puede verse saturado (a mayor número de clientes, más problemas para el servidor). Al contrario, en las redes P2P como cada nodo en la red hace también de servidor, cuanto más nodos hay, mejor es el ancho de banda que se tiene.
+                <br>
+                2. El paradigma de C/S clásico no tiene la robustez de una red P2P. Cuando un servidor está caído, las peticiones de los clientes no pueden ser satisfechas. En la mayor parte de redes P2P, los recursos están generalmente distribuidos en varios nodos de la red. Aunque algunos salgan o abandonen la descarga; otros pueden todavía acabar de descargar consiguiendo datos del resto de los nodos en la red.
+                <br>
+                3. El cliente no dispone de los recursos que puedan existir en el servidor. Por ejemplo, si es una aplicación web, no podremos escribir en el disco duro del cliente o imprimir directamente sobre las impresoras sin sacar antes la ventana previa de impresión de los navegadores.
+                <br>
+                4. En las redes C/S la única forma de obtener la información es a través de la que proporciona el servidor, con lo cual los clientes no podrán compartir información entre ellos. 
+            </td>
+        </tr>
+    </table></center>  
+    <br>
+    <center><h2>componentes</h2></center>
+    <center><table border="1" class="tabla">
+        <tr>
+            <td>
+                Red: Una red es un conjunto de clientes, servidores y base de datos unidos de una manera física o no física en el que existen protocolos de transmisión de información establecidos. <br>
+                Cliente: El concepto de cliente hace referencia a un demandante de servicios, este cliente puede ser un ordenador como también una aplicación de informática, la cual requiere información proveniente de la red para funcionar. <br>
+                Servidor: Un servidor hace referencia a un proveedor de servicios, este servidor a su vez puede ser un ordenador o una aplicación informática la cual envía información a los demás agentes de la red. <br>
+                Protocolo: Un protocolo es un conjunto de normas o reglas y pasos establecidos de manera clara y concreta sobre el flujo de información en una red estructurada. <br>
+                Servicios: Un servicio es un conjunto de información que busca responder las necesidades de un cliente, donde esta información pueden ser mail, música, mensajes simples entre software, videos, etc. <br>
+                Base de datos: Son bancos de información ordenada, categorizada y clasificada que forman parte de la red, que son sitios de almacenaje para la utilización de los servidores y también directamente de los clientes.
+            </td>
+        </tr>
+    </table></center>  
+    <br>
+    <center><h2>Ejemplos</h2></center>
+    <center><table border="1" class="tabla">
+        <tr>
+            <td>
+                Navegar una web: funciona basándonos en un cliente web (navegador) y un servidor web como Apache, Nginx o LiteSpeed 
+                <br>
+                Protocolo FTP: funciona de idéntica forma, se utiliza un cliente de FTP (como Filezilla) para conectar a un servidor FTP (como Pure-FTPD, Proftpd, etc)
+                <br>
+                SSH: es idéntico también, se utiliza un cliente SSH para conectar al servidor SSH que corre en una red remota. 
+                <br>
+                Juegos en red: existen clientes que permiten a jugadores online jugar desde sus casas conectándose a servidores de juegos remotos. 
+                <br>
+                Sistema DNS: el famoso servidor DNS interactúa con clientes DNS también, es decir, basa su arquitectura en el modelo cliente servidor 
+                <br>
+                Servidor de Correo: donde clientes de correo consultan el correo al servidor de correo remoto, tanto desde móvil o una computadora de escritorio o laptop.
+            </td>
+        </tr>
+    </table></center> 
+    <br>
+    <center><h2>la importancia</h2></center>
+    <center><table border="1" class="tabla">
+        <tr>
+            <td>
+                La arquitectura cliente servidor tiene dos partes claramente diferenciadas, por un lado la parte del servidor y por otro la parte de cliente o grupo de clientes donde lo habitual es que un servidor sea una máquina bastante potente con un hardware y software específico que actúa de depósito de datos y funcione como un sistema gestor de base de datos o aplicaciones.
+            </td>
+        </tr>
+    </table></center> 
+    <br>
+    <center><img src="imagenes/arquitectura cliente servidor.jpg" alt="error 404"></center>
+    <hr>
+    <center><a href="https://www.youtube.com/watch?v=KA7Ngcgth0Q&pp=ygUdYXJxdWl0ZWN0dXJhIGNsaWVudGUgc2Vydmlkb3I%3D"><button>video del yutun 
+    </button></a></center>
+    <br>
+    <center><video src="video/title-artist.mp4" controls width="500px"></video></center>
+    <hr>
+    <center><a href="nuevoproyecti.html"><button>regresar</button></a></center>
+</body>
+</html> 

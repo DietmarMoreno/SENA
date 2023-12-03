@@ -1,0 +1,25 @@
+h2 {
+    color: red;
+}
+
+p{
+    color: rgb(174, 66, 66);
+}
+
+#hola
+{
+    color: rgb(189, 219, 18);
+}
+img{
+    width: 100px;
+    /* right: 12px; */
+    height: 100px;
+}
+div{
+    color: blue;
+    background: gainsboro;
+}
+.bloque2{
+    color: rgb(0, 0, 0);
+    background: gainsboro;
+}

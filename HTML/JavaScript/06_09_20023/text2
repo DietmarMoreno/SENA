@@ -1,0 +1,63 @@
+// var ing1=4;
+// // var ing2="azucar";
+// var ing2="leche";
+
+// var resultado="capuchino";
+
+// function Cafetera(ingrediente1,ingrediente2){
+//     if((ingrediente1=="Cafe")&&(ingrediente2=="leche")){
+//         // let resultado="capuchino";
+//         var resultado="Mocachino";
+//         return resultado;
+//     }else{
+//         var resultado=" no hay sistema joven"
+//         return resultado
+//     }
+// }
+
+// console.log(Cafetera(ing1,ing2))
+
+//----------------------------
+
+// var numero1=1;
+// var numero2=4;
+// var numero3=7;
+// var numero4=5;
+
+// var palabra="1";
+
+// // var resultado;
+
+// function sumatoria(numero1,numero2,numero3,numero4){
+//     var suma=numero1+numero2+numero3+numero4
+//     var num=suma
+//     if (suma % 2==0){
+      
+//         return suma="si es par ya que: "+num;
+        
+//     }else{
+//         return suma="no es par ya que: "+num;
+//     }
+// }
+// // console.log(sumatoria(numero1,numero2,numero3,numero4))
+// var res=(sumatoria(numero1,numero2,numero3,numero4));
+// document.write(res);
+// console.log(res);
+
+
+// function igual(numero1,palabra){
+    
+    if((numero1===1)&&(palabra==="2")){
+         var resultado="son iguales";
+        return resultado
+    }else{
+        var resultado="no son iguales";
+        return resultado
+    }
+    
+// }
+
+
+// document.write(igual(numero1,palabra))
+
+// document.write(resultado)

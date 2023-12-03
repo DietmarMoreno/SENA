@@ -1,0 +1,28 @@
+
+.uno{
+    color: blue;
+}
+.que{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h2{
+    color: white;
+}
+.TRES{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+}
+
+.portada{
+    background-color: aqua;
+}
+h1{
+    color: white;
+}

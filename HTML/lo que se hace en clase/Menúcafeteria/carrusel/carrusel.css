@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#contenitemscarrusel{
+    border: 4px solid black;
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+.itemcarrusel{
+  border: 1px solid black;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.tarjetacarrusel{
+    height: 100px;
+    
+}
+
+.flechascarrusel{
+    position: absolute;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+@keyframes slide{
+    0.3%, 10.00%{
+      transform: translateX(0);
+    }
+    10.00%, 20.00%{
+      transform: translateX(-100%);
+    }
+    20.00%, 30.00%{
+      transform: translateX(-200%);
+    }
+    30.00%, 40.00%{
+      transform: translateX(-300%);
+    }
+    40.00%, 50.00%{
+      transform: translateX(-400%);
+    }
+    50.00%, 60.00%{
+      transform: translateX(-500%);
+    }
+    60.00%, 70.00%{
+      transform: translateX(-600%);
+    }
+    70.00%, 80.00%{
+      transform: translateX(-700%);
+    }
+    80.00%, 90.00%{
+      transform: translateX(-800%);
+    }
+    90.00%, 0.2%{
+      transform: translateX(-900%);
+    }
+}
+
+#contenedorpunto{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(red, green, blue, alpha);
+}
+.itemcarrusel img{
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+    
+}
+.contenitemscarrusel{
+  display: flex;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+  scroll-snap-type: x mandatory;  
+}
+.uriel{
+  flex:  100%;
+  animation: slide 80s infinite;
+}

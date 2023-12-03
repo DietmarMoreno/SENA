@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC</title>
+    <link rel="stylesheet" href="ayudacss/pagina_3.css">
+</head>
+<body background="imagenes/menu de inicio.jpg">
+    <div class="portada">
+        <a href="nuevoproyecti.html"><img src="imagenes/3145866.png" alt="error: 404" width="100px"></a><a href="pagina_1.html"><button>AOS</button></a><a href="pagina_2.html"><button>ACS</button></a><a href="banners.html"><button>banners</button></a>
+    </div>
+    <center><h1>MVC- Modelo Vista Controlador</h1></center>
+    <hr>
+    <center><h2>¿Que es el MVC?</h2></center>
+    <center><table border="1" class="tabla">
+        <tr><td>
+            es un patrón en el diseño de software comúnmente utilizado para implementar interfaces de usuario, datos y lógica de control. Enfatiza una separación entre la lógica de negocios y su visualización. Esta "separación de preocupaciones" proporciona una mejor división del trabajo y una mejora de mantenimiento. Algunos otros patrones de diseño se basan en MVC, como MVVM (Modelo-Vista-modelo de vista), MVP (Modelo-Vista-Presentador) y MVW (Modelo-Vista-Whatever).
+        </td></tr>
+    </table></center>
+    <br>
+    <center><h2>Ejemplo</h2></center>
+    <center><table border="1" class="tabla">
+        <tr><td>
+            Imagine una sencilla aplicación de lista de compras. Todo lo que queremos es una lista del nombre, la cantidad y el precio de cada artículo que necesitamos comprar esta semana. A continuación describiremos cómo podríamos implementar parte de esta funcionalidad usando MVC.
+        </td></tr>
+    </table></center>
+    <br>
+    <center><img src="imagenes/model-view-controller-light-blue.png" alt="error 404" width="400px" class="TRE"></center>
+    <br>
+    <center><h2>Modelo</h2></center>
+    <center><table border="1" class="tabla">
+        <tr><td>
+            El modelo define qué datos debe contener la aplicación. Si el estado de estos datos cambia, el modelo generalmente notificará a la vista (para que la pantalla pueda cambiar según sea necesario) y, a veces, el controlador (si se necesita una lógica diferente para controlar la vista actualizada).
+            <br>
+            Volviendo a nuestra aplicación de lista de compras, el modelo especificará qué datos deben contener los artículos de la lista (artículo, precio, etc.) y qué artículos de la lista ya están presentes.
+        </td></tr>
+    </table></center>
+    <br>
+    <center><h2>Vista</h2></center>
+    <center><table border="1" class="tabla">
+        <tr><td>
+            La vista define cómo se deben mostrar los datos de la aplicación. <br>
+            En nuestra aplicación de lista de compras, la vista definiría cómo se presenta la lista al usuario y recibiría los datos para mostrar desde el modelo.
+        </td></tr>
+    </table></center>
+    <br>
+    <center><h2>Controlador</h2></center>
+    <center><table border="1" class="tabla">
+        <tr><td>
+            El controlador contiene una lógica que actualiza el modelo y/o vista en respuesta a las entradas de los usuarios de la aplicación.
+            <br>
+            Entonces, por ejemplo, nuestra lista de compras podría tener formularios de entrada y botones que nos permitan agregar o eliminar artículos. Estas acciones requieren que se actualice el modelo, por lo que la entrada se envía al controlador, que luego manipula el modelo según corresponda, que luego envía datos actualizados a la vista.
+        </td></tr>
+    </table></center>
+    <br>
+    <hr>
+    <center><a href="https://www.youtube.com/watch?v=UU8AKk8Slqg&pp=ygUYbW9kZWxvIHZpc3RhIGNvbnRyb2xhZG9y"><button>video de yutun</button></a></center>
+    <hr>
+    <center><a href="nuevoproyecti.html"><button>regresa</button></a></center>
+</body>
+</html>

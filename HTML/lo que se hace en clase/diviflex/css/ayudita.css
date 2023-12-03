@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.padre{
+    background-color: rgb(255, 0, 0) ;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hijos1{
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    display: flex;
+    order: 99;
+}
+
+.hijos2{
+    background-color: rgb(109, 109, 9);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    order: 9;
+}
+.hijos3{
+    background-color: rgb(58, 47, 14);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    order: 5;
+}

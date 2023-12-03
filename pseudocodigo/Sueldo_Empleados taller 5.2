@@ -1,0 +1,42 @@
+Algoritmo Sueldo_Empleados_2
+	Escribir "Digite la cantidad de trabajadores a ingresar"
+	Leer CantidadT
+	Men<-200
+	May<-0
+	Para Inicio<-1 Hasta CantidadT Con Paso 1 Hacer
+		Escribir "Trabajador Numero ", Inicio
+		Escribir "Digite el nombre del trabajador" 
+		Leer Nombre
+		Escribir "Digite la edad del trabajador Numero " , Inicio
+		Leer Edad
+		Si Men>Edad Entonces
+			Men<-Edad
+		Fin Si
+		Si May<Edad Entonces
+			May<-Edad
+		Fin Si
+		Escribir "indique el sexo del trabajador Numero" , Inicio
+		Escribir "1. H"
+		Escribir "2. M"
+		Escribir "digite el numero"
+		Leer Sex
+		Si Sex=1 Entonces
+			TotalH<-TotalH+1
+		SiNo
+			Si Sex=2 Entonces
+				TotalM<-TotalM+1
+			SiNo
+				Escribir "No selecciono una opcion valida"
+			Fin Si
+		Fin Si
+		Escribir "Digite las horas trabajadas Del trabajador Numero ", Inicio
+		Leer Hora
+		Horas<-Hora+Hora
+		Costo<-(Horas*50000)
+		TotalT<-TotalH+TotalM
+	Fin Para
+	Escribir "la cantidad de trabajadores Hombres son " , TotalH, ", Y la cantidad de Trabajadoras Mujeres son ", TotalM
+	Escribir "El menor Tiene ", Men, " Años , y el mayor tiene ", May 
+	Escribir "Las horas totales son :" ,Horas, " El sueldo total de los trabajadores es : ",Costo
+	Escribir "Trabajadores totales son: ",TotalT
+FinAlgoritmo

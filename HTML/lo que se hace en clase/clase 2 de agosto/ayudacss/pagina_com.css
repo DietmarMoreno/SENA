@@ -1,0 +1,10 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 800%;
+}
+.portada{
+    background-color: aqua;
+}
+h1{
+    color: white;
+}

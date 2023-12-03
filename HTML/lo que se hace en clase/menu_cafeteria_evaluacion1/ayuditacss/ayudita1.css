@@ -1,0 +1,57 @@
+.publi{
+    background-color: rgb(255, 207, 149);
+    text-align: center;
+    margin: 100px;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1573883844855-f364441ac463?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+.imagenuno{
+    height: 50px;
+}
+.imagendos{
+    height: 50px;
+}
+hr{
+    border-color: rgb(214, 48, 48);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.uno{
+
+    text-align: left;
+    margin-left: 10px;
+}
+img{
+    margin-top: -20PX;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    color: black;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid none;
+    margin-left: 19px;
+    width: 860px;
+    text-align: left;
+}
+td{
+    border-collapse: collapse;
+    border: 2px solid none;
+    width: 104px;
+    left: 1700px;
+    font-family: Arial;
+    
+}
+a{
+    color: black;
+    font-family: Arial;
+}
+a:hover{
+    color: red;
+}

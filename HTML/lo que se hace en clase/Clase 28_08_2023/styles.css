@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;400;600;700&family=Black+Ops+One&family=Hachi+Maru+Pop&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Antonio', sans-serif;;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header {
+    background-image: linear-gradient(
+    #f1996680,
+    #ffddc381),
+    url(img/veter/vet-consulting-2021-09-24-03-26-34-utc.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #e06010;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.logo-img {
+    height: 150px;
+    padding: 30px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color:  #312319;
+    display: block;
+    font-weight: 600px;
+}
+
+.menu .navbar ul li a:hover {
+    color: #d55f0b;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #ce3202;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+    padding-top: 100px;
+}
+
+.header-content p {
+    font-size: 30px;
+    color: #a43c2e;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #c05a1a;
+    color: #231d1b;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #8d4200;
+}
+
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #eccbb4;
+}
+
+.general-2 {
+    background-image: url(img/veter/image4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-3 {
+    background-image: url(img/veter/montar-clinica-veterinaria-cursos-cpt.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-4 {
+    background-image: url(img/veter/veterinarian-check-ing-puppy-s-health-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #585046;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #000000;
+    margin: 25px 0 45px 0;
+}
+.map {
+    display: flex;
+    background-color: #fdf4e8;
+}
+
+.maps {
+    padding: 100px 250px 100px 100px;
+    background-color: #fdf1e8;
+    align-items: center;
+}
+
+.maps iframe{
+    width: 600px;
+    height: 450px;
+}
+
+.info {
+    font-size: 16px;
+    color: #000000;
+    display: block;
+    margin-bottom: 15ppx;
+}
+
+
+.info {
+    padding: 100px 0 100px 100px;
+    background-color: #fdefe8;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #b39380;
+    max-height: 50vh;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #83240a;
+    margin-bottom: 15px;
+}
+
+link a {
+    font-size: 16px;
+    color: #0f0c08;
+    display: block;
+    margin-bottom: 15ppx;
+}
+
+h6 {
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+/* -------------------------- */
+@media(max-width:991px){
+    .container {
+       padding: 30px;
+    }
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        padding: 100px 30px 30px 30px;
+    }
+    .header-img h1{
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .header-img img{
+        width: 300px;
+    }
+    .header-content p{
+        padding: 0;
+    }
+    /* -------- */
+    .general{
+        display: flex;
+    }
+    .general-1{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .general-2{
+        display: none;
+    }
+    .general-3{
+        display: none;
+    }
+    .general-4{
+        display: none;
+    }
+    /* ------------------- */
+    .map{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+   
+    .maps iframe{
+        align-items: center;
+        width: 200%;
+        height: 200%;
+
+    }
+    /* -------------------- */
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        
+        flex-direction: column column;
+        text-align: center;
+    }
+}
